@@ -1,7 +1,7 @@
 {
   "title": "PF2e Amendable Rolls",
   "description": "Roll first ask questions later.",
-  "version": "1",
+  "version": "13",
   "authors": [
     {
       "name": "Kyle Pulver",
@@ -22,10 +22,9 @@
   "styles": [
     "css/style.css"
   ],
-  "url": "https://github.com/",
-  "download": "https://github.com/ ",
-  "manifest": "https://github.com/ ",
-  "bugs": "https://github.com/",
+  "url": "https://github.com/kylepulver/pf2e-amendable-rolls",
+  "download": "https://github.com/kylepulver/pf2e-amendable-rolls/archive/refs/heads/main.zip",
+  "manifest": "https://raw.githubusercontent.com/kylepulver/pf2e-amendable-rolls/main/module.json",
   "allowBugReporter": true,
   "id": "pf2e-amendable-rolls",
   "compatibility": {
