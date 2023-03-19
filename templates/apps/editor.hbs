@@ -1,0 +1,48 @@
+<form>
+    <div style="text-align:center">Quick Adjustment to Roll Result</div>
+<div style="display:flex;align-items-center;text-align:center;width:5em;margin:0 auto;font-size:300%">
+<div style="flex:1;cursor:pointer;background:#fff8"data-action="dec"><i class="fa-solid fa-fw fa-minus"></i></div>
+<div style="flex:1">{{adjust}}</div>
+<div style="flex:1;cursor:pointer;background:#fff8"data-action="inc"><i class="fa-solid fa-fw fa-plus"></i></div>
+</div>
+
+{{!-- {{#with obj}}
+{{#each rolls}}
+<div style="padding-left:0.25em">
+    <strong>roll</strong>
+{{#each instances}}
+<div style="padding-left:0.25em">
+    <strong>instance</strong>
+<div>{{typeLabel}}</div>
+<div>{{formula}}</div>
+{{#each dice}}
+<div style="padding-left:0.25em">
+    <strong>die</strong>
+    <div>{{expression}}</div>
+
+{{#each results}}
+<div style="padding-left:0.25em">
+    <strong>result</strong>
+    <div>{{result}} ({{active}})</div>
+</div>
+{{/each}}
+
+
+
+</div>
+{{/each}}
+<div>total {{total}}</div>
+
+
+</div>
+{{/each}}
+</div>
+{{/each}}
+{{/with}} --}}
+{{!-- 
+
+    <div class="form-group buttons">
+        <button type="submit">Save Changes</button>
+        <button type="reset">Discard Changes</button>
+    </div> --}}
+</form>
