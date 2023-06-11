@@ -5,14 +5,16 @@
   "authors": [
     {
       "name": "Kyle Pulver",
-      "discord": "kpulv#9999"
+      "discord": "kpulv#9999",
+      "flags": {}
     }
   ],
   "languages": [
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "lang/en.json",
+      "flags": {}
     }
   ],
   "esmodules": [
@@ -25,13 +27,9 @@
   "url": "https://github.com/kylepulver/pf2e-amendable-rolls",
   "download": "https://github.com/kylepulver/pf2e-amendable-rolls/archive/refs/heads/main.zip",
   "manifest": "https://raw.githubusercontent.com/kylepulver/pf2e-amendable-rolls/main/module.json",
-  "allowBugReporter": true,
   "id": "pf2e-amendable-rolls",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
-  },
-  "name": "pf2e-amendable-rolls",
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "10"
+  }
 }

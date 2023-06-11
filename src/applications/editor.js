@@ -7,6 +7,7 @@ export default class AmendableRollEditor extends FormApplication {
         return foundry.utils.mergeObject(super.defaultOptions, {
             id: 'pf2-amendable-roll-editor',
             classes:["pf2e-amendable-rolls"],
+            title: "Edit Roll",
             template: "modules/pf2e-amendable-rolls/templates/apps/editor.hbs",
             width: 500,
             height: "auto"
