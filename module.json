@@ -1,11 +1,11 @@
 {
   "title": "PF2e Amendable Rolls",
   "description": "Roll first ask questions later.",
-  "version": "13",
+  "version": "15",
   "authors": [
     {
       "name": "Kyle Pulver",
-      "discord": "kpulv#9999",
+      "discord": "kpulv",
       "flags": {}
     }
   ],

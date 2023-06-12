@@ -7,10 +7,10 @@ export default class AmendableRollEditor extends FormApplication {
         return foundry.utils.mergeObject(super.defaultOptions, {
             id: 'pf2-amendable-roll-editor',
             classes:["pf2e-amendable-rolls"],
-            title: "Edit Roll",
             template: "modules/pf2e-amendable-rolls/templates/apps/editor.hbs",
             width: 500,
-            height: "auto"
+            height: "auto",
+            title: "Edit Roll",
         });
     }
 
@@ -19,7 +19,7 @@ export default class AmendableRollEditor extends FormApplication {
 
         data.obj = this.object;
 
-        console.log(this.object);
+        // console.log(this.object);
         data.adjust = 0;
             let roll = this.object.rolls[0];
             let term = roll.terms.find(t => t.flavor == "adjust") ?? false;
@@ -27,15 +27,13 @@ export default class AmendableRollEditor extends FormApplication {
             data.adjust = parseInt(term.number);
         }
 
-    
-
         return data;
     }
 
     async _updateObject(event, formData) {
 
         // let obj = foundry.utils.duplicate(this.object)
-        console.log(formData);
+        // console.log(formData);
         // upate rolls
     }
 
